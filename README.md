@@ -14,23 +14,19 @@ Instructora: D. Adriana Gómez Rosal.
 
 ## Los cuadernos
 
-| Sesión | Cuaderno | Colab | Kaggle |
-|---|---|---|---|
-| — | `bitacora_plantilla.ipynb` — su bitácora personal | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/bitacora_plantilla.ipynb) | [Abrir en Kaggle](https://kaggle.com/kernels/welcome?src=https://github.com/AdriannaGmz/IAA6_M13_Gen/blob/main/bitacora_plantilla.ipynb) |
-| S1-E1 | `s1_e1_el_molde.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s1_e1_el_molde.ipynb) | [Abrir en Kaggle](https://kaggle.com/kernels/welcome?src=https://github.com/AdriannaGmz/IAA6_M13_Gen/blob/main/s1_e1_el_molde.ipynb) |
-| S1-E2 | `s1_e2_mi_primer_generador.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s1_e2_mi_primer_generador.ipynb) | [Abrir en Kaggle](https://kaggle.com/kernels/welcome?src=https://github.com/AdriannaGmz/IAA6_M13_Gen/blob/main/s1_e2_mi_primer_generador.ipynb) |
-| S2-E1 | `s2_e1_el_juego.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s2_e1_el_juego.ipynb) | [Abrir en Kaggle](https://kaggle.com/kernels/welcome?src=https://github.com/AdriannaGmz/IAA6_M13_Gen/blob/main/s2_e1_el_juego.ipynb) |
-| S2-E2 | `s2_e2_control.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s2_e2_control.ipynb) | [Abrir en Kaggle](https://kaggle.com/kernels/welcome?src=https://github.com/AdriannaGmz/IAA6_M13_Gen/blob/main/s2_e2_control.ipynb) |
-| S3-E1 | `s3_e1_difusion_2d.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s3_e1_difusion_2d.ipynb) | [Abrir en Kaggle](https://kaggle.com/kernels/welcome?src=https://github.com/AdriannaGmz/IAA6_M13_Gen/blob/main/s3_e1_difusion_2d.ipynb) |
-| S3-E2 | `s3_e2_control_fino.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s3_e2_control_fino.ipynb) | [Abrir en Kaggle](https://kaggle.com/kernels/welcome?src=https://github.com/AdriannaGmz/IAA6_M13_Gen/blob/main/s3_e2_control_fino.ipynb) |
-| S4-E1 | `s4_e1_adaptar.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s4_e1_adaptar.ipynb) | [Abrir en Kaggle](https://kaggle.com/kernels/welcome?src=https://github.com/AdriannaGmz/IAA6_M13_Gen/blob/main/s4_e1_adaptar.ipynb) |
-| S4-E2 | `s4_e2_el_juicio.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s4_e2_el_juicio.ipynb) | [Abrir en Kaggle](https://kaggle.com/kernels/welcome?src=https://github.com/AdriannaGmz/IAA6_M13_Gen/blob/main/s4_e2_el_juicio.ipynb) |
+| Sesión | Cuaderno | Colab |
+|---|---|---|
+| — | `bitacora_plantilla.ipynb` — su bitácora personal | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/bitacora_plantilla.ipynb) |
+| S1-E1 | `s1_e1_el_molde.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s1_e1_el_molde.ipynb) |
+| S1-E2 | `s1_e2_mi_primer_generador.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s1_e2_mi_primer_generador.ipynb) |
+| S2-E1 | `s2_e1_el_juego.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s2_e1_el_juego.ipynb) |
+| S2-E2 | `s2_e2_control.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s2_e2_control.ipynb) |
+| S3-E1 | `s3_e1_difusion_2d.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s3_e1_difusion_2d.ipynb) |
+| S3-E2 | `s3_e2_control_fino.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s3_e2_control_fino.ipynb) |
+| S4-E1 | `s4_e1_adaptar.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s4_e1_adaptar.ipynb) |
+| S4-E2 | `s4_e2_el_juicio.ipynb` | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdriannaGmz/IAA6_M13_Gen/blob/main/s4_e2_el_juicio.ipynb) |
 
-> [VERIFICAR: el patrón de enlace de importación de Kaggle
-> (`kaggle.com/kernels/welcome?src=…`) debe probarse con el repositorio ya
-> público, en la prueba de humo del 26–27 de agosto.]
-
-## Ejecución local (alternativa a Colab y Kaggle)
+## Ejecución local (alternativa a Colab)
 
 ```bash
 git clone https://github.com/AdriannaGmz/IAA6_M13_Gen
