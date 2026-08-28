@@ -1,0 +1,21 @@
+# ═══════════════════════════════════════════════════════════════
+# Módulo — Modelos generativos profundos · DGTIC-UNAM
+# VERSIONES FIJADAS contra PyPI el 25 de agosto de 2026.
+#
+# ⚠️ [VERIFICAR: 26–27 de agosto] En la prueba de humo, comparar
+#    estas versiones con las preinstaladas en Colab/Kaggle. Si Colab
+#    trae otra versión de torch/torchvision, alinear el pin a la
+#    preinstalada para evitar una reinstalación de varios minutos
+#    en la celda de setup. Las demás bibliotecas son ligeras.
+# ═══════════════════════════════════════════════════════════════
+torch==2.13.0
+torchvision==0.28.0
+diffusers==0.40.0
+transformers==5.15.1
+peft==0.20.0
+accelerate==1.14.0
+numpy==2.5.2
+matplotlib==3.11.1
+scikit-learn==1.9.0
+scipy==1.18.1
+pandas==3.0.5
