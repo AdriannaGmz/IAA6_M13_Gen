@@ -1,21 +1,18 @@
 # ═══════════════════════════════════════════════════════════════
 # Módulo — Modelos generativos profundos · DGTIC-UNAM
-# VERSIONES FIJADAS contra PyPI el 25 de agosto de 2026.
 #
-# ⚠️ [VERIFICAR: 26–27 de agosto] En la prueba de humo, comparar
-#    estas versiones con las preinstaladas en Colab. Si Colab
-#    trae otra versión de torch/torchvision, alinear el pin a la
-#    preinstalada para evitar una reinstalación de varios minutos
-#    en la celda de setup. Las demás bibliotecas son ligeras.
+# Aquí va SÓLO lo que Colab no trae preinstalado.
+#
+# No agregue torch, torchvision, numpy, pandas, scipy,
+# scikit-learn ni matplotlib. Reemplazar cualquiera de esos en una
+# sesión de Colab ya iniciada deja el numpy del kernel a medias
+# (ImportError en numpy._core.umath, y falla toda celda que use
+# scikit-learn) y sólo se arregla reiniciando el entorno de
+# ejecución. Fijar torch, además, cuesta ~2.5 GB de descarga y
+# varios minutos en cada cuaderno.
+#
+# peft es la única dependencia real del módulo (S4-E1, LoRA).
+# Pide numpy>=1.17 y torch>=1.13 sin cota superior, así que se
+# instala sobre lo que Colab ya tiene sin desplazar nada.
 # ═══════════════════════════════════════════════════════════════
-torch==2.13.0
-torchvision==0.28.0
-diffusers==0.40.0
-transformers==5.15.1
-peft==0.20.0
-accelerate==1.14.0
-numpy==2.5.2
-matplotlib==3.11.1
-scikit-learn==1.9.0
-scipy==1.18.1
-pandas==3.0.5
+peft>=0.20

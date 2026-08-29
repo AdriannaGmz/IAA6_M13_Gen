@@ -107,8 +107,11 @@ prueba("interpolacion (imagen)", lambda: graficas.interpolacion(
     _DecodificadorFalso(), torch.randn(32), torch.randn(32), pasos=8
 ).savefig(SALIDA / "interpolacion.png"))
 
-# rescate: guardar y cargar un checkpoint de ida y vuelta
+# rescate: guardar y cargar un checkpoint de ida y vuelta.
+# Se redirige el directorio a /tmp: con el de producción, esta prueba
+# sobrescribe el checkpoint real de s1_vae que S2-E1 necesita.
 print("\n── rescate (ida y vuelta) ──")
+rescate._RUTA_CHECKPOINTS = SALIDA / "checkpoints"
 figs = [graficas.rejilla(Xi[:4], "prueba", n=4)]
 rescate.guardar("s1_vae", contenido={"prueba": torch.arange(3)}, figuras=figs)
 contenido, figuras = rescate.cargar("s1_vae")
