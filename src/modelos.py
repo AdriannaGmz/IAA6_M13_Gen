@@ -559,11 +559,11 @@ class Difusion:
     autores adoptan tras descartar los términos de ponderación del
     objetivo variacional y justifican por desempeño empírico.
 
-    - La parte DISEÑADA: el calendario de ruido (betas lineales
+    - La parte DISEÑADA: la dosis de ruido (betas lineales
       1e-4 → 0.02, como en el artículo) y la distribución final.
     - La parte APRENDIDA: la red que predice el ruido.
     - Muestreo con menos pasos: regla determinista de DDIM (Song, Meng
-      y Ermon, ICLR 2021) sobre un subcalendario.
+      y Ermon, ICLR 2021) sobre un subconjunto de esos pasos.
     - Guía sin clasificador (Ho y Salimans, taller NeurIPS 2021):
       durante el entrenamiento la condición se abandona el 10 % de las
       veces; al muestrear,
@@ -585,7 +585,7 @@ class Difusion:
             self.red = _RuidoMLP(int(np.prod(forma)), self.n_clases)
         self.red.to(self.dispositivo)
 
-        # calendario fijo (la parte diseñada)
+        # dosis de ruido fija (la parte diseñada)
         betas = torch.linspace(1e-4, 0.02, pasos)
         self.alfas_cum = torch.cumprod(1.0 - betas, dim=0).to(
             self.dispositivo)
@@ -642,7 +642,7 @@ class Difusion:
     @torch.no_grad()
     def muestrear(self, n, y=None, pasos=None, guia=1.0,
                   guardar_trayectoria=False):
-        """Muestreo inverso (DDIM determinista sobre un subcalendario).
+        """Muestreo inverso (DDIM determinista sobre un subconjunto de pasos).
 
         pasos: cuántos pasos usar (por defecto, todos los del
         entrenamiento). Menos pasos = más rápido, menos fiel.
